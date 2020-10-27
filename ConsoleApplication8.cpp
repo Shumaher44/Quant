@@ -55,6 +55,8 @@ int main()
 
     pupil Peter;
     int choice;
+
+    while (choice != 7) {
     std::cout << "Выберите пункт меню: \n";
     std::cout << "\tВвести ФИО ребёнка - 1\n";
     std::cout << "\tВвести дату рождения - 2\n";
@@ -65,7 +67,6 @@ int main()
     std::cout << "\tВыход - 7\n";
 
     std::cin >> choice;
-    while (choice != 7) {
         if (choice == 7) {
             std::cout << "Всего доброго!";
             break;
